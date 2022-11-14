@@ -1,0 +1,52 @@
+﻿<header class="cp_header">
+    <div id="cp-slide-menu" class="cp_side-navigation">
+        <ul class="navbar-nav">
+            <li id="close"><a href="#"><i class="fa fa-close"></i></a></li>
+            <li><a href="@Url.Action("GetHomePage","Main")">Accueil</a></li>
+            <li><a href="@Url.Action("GetAboutUsPage","Main")">À Propos</a></li>
+            <li><a href="@Url.Action("GetBookingPage","Main")">Prix et Réservation</a></li>
+        </ul>
+    </div>
+    <div id="cp-slide-search" class="cp_side-search">
+        <form method="get">
+            <input type="text" placeholder="Enter Your Name..." required>
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <!--Navigation Start-->
+    <div class="cp-navigation-row">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!--Top Bar Start-->
+                    <div class="cp-topbar">
+                        <span class="tp-num">Contactez-nous. +33 ‭6 59 36 23 90 / + 33 7 77 36 89 75</span>
+                    </div><!--Top Bar Start-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-12 col-xs-6">
+                    <!--Logo Start-->
+                    <strong class="cp-logo">
+                        <a href="@Url.Action("GetHomePage", "Main")"><img src="~/images/logo.png" alt=""></a>
+                    </strong><!--Logo End-->
+                </div>
+                <div class="col-md-9 col-sm-12 col-xs-6">
+                    <!--Nav Holder Start-->
+                    <div class="cp-nav-holder">
+                        <ul class="navbar-nav">
+                            <li><a href="@Url.Action("GetHomePage","Main")">Accueil</a></li>
+                            <li><a href="@Url.Action("GetAboutUsPage","Main")">À Propos</a></li>
+                            <li><a href="@Url.Action("GetBookingPage","Main")">Prix et Réservation</a></li>
+                        </ul>
+                        <ul class="nav-right-listed">
+                            <li id="push" class="cp-sidemenu"><a href="#"><i class="fa fa-align-justify"></i></a></li>
+                        </ul>
+                    </div>
+                    <!--Nav Holder End-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Navigation End-->
+</header>
