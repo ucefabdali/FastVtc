@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'FastVTC'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_243D5391540B4A588ABD38921BB5A2C7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_645C249EB1F94B26B84C438D0590E69F }}
           package: .
